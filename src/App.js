@@ -28,7 +28,6 @@ function App() {
 
   const handleChange = (e) => {
     setNote(e.target.value);
-    console.log(note);
   };
 
   useEffect(() => {
